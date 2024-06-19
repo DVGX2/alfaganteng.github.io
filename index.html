@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="page-1.css">
+    <title>Alfa ganteng com</title>
+</head>
+<body>
+    <center>
+    <div class="delok">
+        <div class="title">Menu</div><br>
+        <a href="https://www.youtube.com/@muhammad_alfa_001">Muhammad alfa 001</a><br><br>
+        <a href="https://www.instagram.com/yoiki_alpa_rekk">Yoiki_alpa_rekk</a><br><br>
+        <div class="btn-tutup">
+            <button onclick="tutup()">Tutup menu</button>
+        </div>
+    </div>
+</center>
+    <button onclick="klikMenu()">Buka menu</button>
+</body>
+<script>
+    function klikMenu(){
+        const buka = document.querySelector('.delok')
+        buka.style.display='block'
+    }
+    function tutup(){
+        const buka = document.querySelector('.delok')
+        buka.style.display='none'
+    }
+</script>
+</html>
